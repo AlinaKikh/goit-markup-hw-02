@@ -74,7 +74,7 @@ ul > li > a {
   letter-spacing: 0.02em;
   color: #434455;
   display: flex;
-  margin-top: 8px;
+  margin-top: 20px;
   margin-right: 40px;
   margin-left: 332px;
   margin-right: 156px;
@@ -124,6 +124,7 @@ ul > li > a {
   height: 104px;
   margin: 123px 156px 123px 156px;
   display: flex;
+  position: relative;
 }
 
 .features-box {
@@ -148,5 +149,51 @@ ul > li > a {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team-container {
+  width: 1440px;
+  height: 732px;
+  background-color: #f4f4fd;
+  align-items: center;
+}
+
+.team-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.team-item {
+  width: calc((100% / 4)- (24px * 3) / 4);
+  text-align: center;
+}
+
+.team-item-title {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-item-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #434455;
 }
