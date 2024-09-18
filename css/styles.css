@@ -14,15 +14,15 @@ ul {
 }
 
 .header-container {
-    width: 1440px;
-    height: 72px;
-    display: flex;
-    background-color: aqua;
+  width: 1440px;
+  height: 24px;
+  display: flex;
 }
 
 .nav-list {
-    margin-left: 156px;
-    margin-top: 24px;
+  margin-left: 156px;
+  margin-top: 24px;
+  display: flex;
 }
 .logo-1 {
   font-family: "Raleway", sans-serif;
@@ -32,7 +32,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  }
+}
 
 .logo-2 {
   font-family: "Raleway", sans-serif;
@@ -44,7 +44,7 @@ ul {
   color: #2e2f42;
 }
 
-.features {
+.header-features {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -56,14 +56,17 @@ ul {
   margin-left: 76px;
 }
 
-.features-list {
+.header-features-list {
   margin-right: 40px;
   margin-top: 0;
+  color: #2e2f42;
 }
 
+ul > li > a {
+  color: #2e2f42;
+}
 
-
-.address-list {
+.address-box {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -74,26 +77,75 @@ ul {
   margin-top: 8px;
   margin-right: 40px;
   margin-left: 332px;
-}
-
-.address-list-2 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
-    display: flex;
-    margin-top: 8px;
-    margin-right: 156px;
-  }
-
-address > ul {
+  margin-right: 156px;
   display: flex;
 }
 
-nav {
-    display: flex;
-  }
+.address-list-1 {
+  margin-right: 40px;
+}
 
-  
+.main-container {
+  width: 1440px;
+  height: 600px;
+  background-color: #2e2f42;
+  box-sizing: border-box;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 0;
+}
+
+.main-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding: 188px 472px 0px;
+  text-align: center;
+}
+
+.main-button {
+  text-align: center;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.features-container {
+  width: 1128px;
+  height: 104px;
+  margin: 123px 156px 123px 156px;
+  display: flex;
+}
+
+.features-box {
+  margin: 0px 24px;
+  width: 264px;
+  height: 98px;
+}
+
+.features-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.features-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
