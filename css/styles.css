@@ -76,6 +76,10 @@ ul {
   color: #404bbf;
 }
 
+.address-item {
+  font-style: normal;
+}
+
 .address-box {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
