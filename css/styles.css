@@ -93,7 +93,7 @@ ul {
   margin-right: 156px;
 }
 
-.address-list-1 {
+.address-list {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -103,8 +103,7 @@ ul {
   margin-right: 40px;
 }
 
-.address-list-1:hover,
-.address-list-2:hover {
+.address-list:hover {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -113,7 +112,7 @@ ul {
   color: #404bbf;
 }
 
-.address-list-2 {
+.address-list {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
