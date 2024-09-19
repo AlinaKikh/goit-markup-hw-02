@@ -38,20 +38,38 @@ ul {
 }
 
 .header-features {
+  margin-top: 0;
+  margin-left: 76px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 0;
-  margin-left: 76px;
 }
 
 .header-features-list {
   margin-right: 40px;
   margin-top: 0;
   color: #2e2f42;
+}
+
+.header-features-list:hover {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
+.header-features-list:active {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #404bbf;
 }
 
 ul > li > a {
@@ -72,6 +90,32 @@ ul > li > a {
 }
 
 .address-list-1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-right: 40px;
+}
+
+.address-list-1:hover,
+.address-list-2:hover {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
+.address-list-2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
   margin-right: 40px;
 }
 
@@ -94,6 +138,11 @@ ul > li > a {
   color: #ffffff;
   border: none;
   cursor: pointer;
+}
+
+.main-button:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
 }
 
 .features-container {
