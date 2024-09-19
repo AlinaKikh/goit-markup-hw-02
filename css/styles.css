@@ -45,12 +45,16 @@ ul {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .header-features-list {
   margin-right: 40px;
   margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -70,10 +74,6 @@ ul {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #404bbf;
-}
-
-ul > li > a {
-  color: #2e2f42;
 }
 
 .address-box {
@@ -131,17 +131,21 @@ ul > li > a {
   line-height: 107%;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 
 .main-button {
   background: #4d5ae5;
   color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border: none;
   cursor: pointer;
 }
 
-.main-button:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.main-button:hover,
+.main-button:focus {
   background: #404bbf;
 }
 
@@ -179,10 +183,16 @@ ul > li > a {
 .team-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.wrapper {
+  background-color: #FFFFFF;
 }
 
 .team-item-title {
@@ -216,6 +226,8 @@ ul > li > a {
   line-height: 111%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio-item-title {
