@@ -37,16 +37,6 @@ ul {
   color: #2e2f42;
 }
 
-.header-features {
-  margin-top: 0;
-  margin-left: 76px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-}
-
 .header-features-list {
   margin-right: 40px;
   margin-top: 0;
@@ -78,9 +68,6 @@ ul {
 
 .address-item {
   font-style: normal;
-}
-
-.address-box {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -90,7 +77,7 @@ ul {
   margin-top: 20px;
   margin-right: 40px;
   margin-left: 332px;
-  margin-right: 156px;
+  margin-right: 156px;  
 }
 
 .address-list {
