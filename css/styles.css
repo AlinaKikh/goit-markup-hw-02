@@ -49,7 +49,9 @@ ul {
 }
 
 .header-features-list:hover,
-.header-features-list:active {
+.header-features-list:focus,
+.header-features-list:active
+{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -91,7 +93,9 @@ ul {
   color: #404bbf;
 }
 
-.address-list:active {
+.address-list:active,
+.address-list:focus
+ {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
